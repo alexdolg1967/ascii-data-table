@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import AsciiTable from "ascii-data-table";
+// import formPhrase from 'font-ascii';
 
 
 function App() {
@@ -35,6 +36,8 @@ function App() {
     });
   }
 
+
+
   return (
     <>
       <h1>Ascii Data Tables пример вывода</h1>
@@ -47,7 +50,7 @@ function App() {
         : <code>{widthTables}</code>
       </div>
 
-      {/* art.style("Some Text", 'green', true) */}
+      {/* <p>{formPhrase('TEST')}</p> */}
 
       
     </>
